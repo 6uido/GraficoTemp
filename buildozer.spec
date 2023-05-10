@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Graficomain26_2
+title = Graficomain263
 
 # (str) Package name
-package.name = graficomain26_2
+package.name = graficomain263
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivy_garden.graph,android,pyjnius
+requirements = python3,kivy==2.1.0,kivy_garden.graph,android,pyjnius
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
